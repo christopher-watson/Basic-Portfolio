@@ -20,8 +20,43 @@ ul{
 }
 
 header{
-  background-color: white;
+  background-color: #fff;
   width: 100%;
   position: relative;
 }
 
+h1{
+  background-color: #4aaaa5;
+  padding: 35px;
+  text-align: center;
+  float: left;
+  margin-left: 50px;
+  color: #fff;
+}
+
+nav{
+  float: left;
+  margin-left: 250px;
+  margin-top: 50px;
+  display: table;
+  height: 40px;
+}
+
+ul li{
+  display: inline;
+  margin: 5px;
+}
+
+
+.content{
+  width: 960px;
+  background-color: #fff;
+  opacity: .5;
+  margin: 0 50px;
+}
+
+.clearfix::after{
+  clear: both;
+  content: "";
+  display: block;
+}
