@@ -11,10 +11,9 @@ body{
 
 .container{
   width: 960px;
-  padding: 20px;
-  /* margin: 0 auto; */
-  margin: 0 40px;
+  margin:  40px;
   overflow: auto;
+  clear: both;
 }
 
 h1, h2, h3{
@@ -26,17 +25,19 @@ header{
   height: 111px;
   width: 100%;
   margin: 0 auto;
-  overflow: auto;
+  min-width: 960px;
 }
 
 footer{
   background-color: #666;
   height: 111px;
   width: 100%;
-  margin: 0 auto;
   text-align: center;
-  position: fixed;
+  /* position: absolute; */
   bottom: 0;
+  overflow: auto;
+  padding-top: 45px;
+  border-top: 5px solid #4aaaa5;
 }
 
 h1{
@@ -44,8 +45,17 @@ h1{
   padding: 35px;
   text-align: center;
   float: left;
-  margin-left: 120px;
+  margin-left: 40px;
   color: #fff;
+}
+
+h2{
+  border-bottom: 3px solid grey;
+  margin-bottom: 40px;
+}
+
+.main{
+  padding: 30px;
 }
 
 nav{
@@ -69,9 +79,11 @@ section{
 }
 
 aside{
-  float: right;
   background-color: #fff;
   display: inline;
+  max-width: 270px;
+  position: absolute;
+  margin-left: 50px;
 }
 
 h2{
@@ -86,6 +98,7 @@ p{
   margin: 0 50px 50px 0;
 }
 
+
 h3{
   color: #4aaaa5;
   padding: 40px;
@@ -97,7 +110,6 @@ h3{
 
 .profile{
   height: 300px;
-  margin-left: 40px;
 }
 
 .content{
