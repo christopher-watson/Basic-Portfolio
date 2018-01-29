@@ -23,6 +23,7 @@ header{
   background-color: #fff;
   width: 100%;
   position: relative;
+  clear: both;
 }
 
 h1{
@@ -47,6 +48,9 @@ ul li{
   margin: 5px;
 }
 
+div{
+  clear: both;
+}
 section{
   width: 650px;
   float: left;
@@ -54,7 +58,6 @@ section{
 }
 
 aside{
-  width: 270px;
   float: right;
   background-color: #fff;
   display: inline;
@@ -72,18 +75,24 @@ p{
   margin: 0 50px 50px 0;
 }
 
+h3{
+  color: #4aaaa5;
+  padding: 40px;
+}
+
+footer{
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+.icon{
+  width: 50px; 
+}
 
 .profile{
   height: 300px;
   margin-left: 40px;
-}
-
-.content{
-  width: 960px;
-  /* background-color: #fff; */
-  /* opacity: .5; */
-  margin-left: 50px;
-  margin-top: 20px;
 }
 
 .clearfix::after{
