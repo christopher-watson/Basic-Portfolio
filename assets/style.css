@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body{
@@ -12,7 +13,7 @@ body{
 .container{
   max-width: 960px;
   margin:  40px;
-  overflow: scroll;
+  overflow: auto;
   clear: both;
 }
 
@@ -63,7 +64,7 @@ h2{
 }
 
 h3{
-  border-bottom: 3px solid grey;
+  border-bottom: 2px solid grey;
   margin-bottom: 10px;
   color: #4aaaa5;
   padding: 20px;
@@ -87,6 +88,7 @@ nav{
 li{
   display: inline;
   margin: 5px;
+  color: #4aaaa5;
 }
 
 section{
@@ -120,10 +122,16 @@ p{
   width: 640px;
 }
 
+.main2:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #left-portfolio-items,
 #right-portfolio-items{
   width: 50%;
-  margin: 5px;
+  float: left;
 }
 
 .profile-left,
@@ -177,4 +185,31 @@ textarea {
   border: 1px solid #ccc;
   margin: 10px 0;
   resize: none;
+}
+
+a:link {
+  color: #666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4aaaa5;
+  text-decoration: none;
+}
+
+#header-li:not(:last-child) { 
+  border-right:solid 1px #666;
+}
+
+#header-li{
+  padding: 0 15px 0 0;
+}
+
+#header-ul{
+  padding: 0;
 }
