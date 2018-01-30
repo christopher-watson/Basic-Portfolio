@@ -11,10 +11,15 @@ body{
   /* height: 100%; */
 }
 
+/* POSSIBLE FOOTER FIX? */
 /* .wrapper{
   min-height: 100%;
   margin-bottom: -111px;
+
+.push{
+  height: 111px;
 } */
+
 
 /* MAIN CONTENT CONTAINER
 ABOUT/CONTACT */
@@ -23,10 +28,17 @@ ABOUT/CONTACT */
   margin:  40px;
   overflow: auto;
   clear: both;
+  /* margin-bottom: 200px; */
 }
 
 h1, h2, h3{
   font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav{
+  float: left;
+  margin-left: 250px;
+  margin-top: 50px;
 }
 
 header{
@@ -44,15 +56,11 @@ footer{
   width: 100%;
   text-align: center;
   position: relative;
+  /* position: fixed; */
   bottom: 0;
-  /* overflow: auto; */
   padding-top: 45px;
   border-top: 5px solid #4aaaa5;
 }
-
-/* .push{
-  height: 111px;
-} */
 
 /* HEADER H1 */
 h1{
@@ -100,11 +108,10 @@ h3{
   padding: 30px;
 }
 
-
-nav{
+section{
+  width: 650px;
   float: left;
-  margin-left: 250px;
-  margin-top: 50px;
+  background-color: #fff;
 }
 
 /* ASIDE STUFF */
@@ -119,11 +126,6 @@ li{
   color: #4aaaa5;
 }
 
-section{
-  width: 650px;
-  float: left;
-  background-color: #fff;
-}
 
 aside{
   background-color: #fff;
