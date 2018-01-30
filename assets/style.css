@@ -16,6 +16,7 @@ body{
   margin-bottom: -111px;
 } */
 
+
 .container{
   max-width: 960px;
   margin:  40px;
@@ -202,6 +203,7 @@ textarea {
   resize: none;
 }
 
+/* ASIDE LINK STUFF */
 a:link {
   color: #666;
   text-decoration: none;
@@ -217,11 +219,12 @@ a:hover {
   text-decoration: none;
 }
 
-#header-li:not(:last-child) { 
+/* NAV LINK STUFF */
+.header-li:not(:last-child) { 
   border-right:solid 1px #666;
 }
 
-#header-li{
+.header-li{
   padding: 0 15px 0 0;
 }
 
