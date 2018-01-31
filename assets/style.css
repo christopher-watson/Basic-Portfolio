@@ -12,14 +12,9 @@ body{
 }
 
 /* POSSIBLE FOOTER FIX? */
-/* .wrapper{
-  min-height: 100%;
-  margin-bottom: -111px;
-
-.push{
-  height: 111px;
-} */
-
+.wrapper{
+  width: 100%;
+}
 
 /* MAIN CONTENT CONTAINER
 ABOUT/CONTACT */
@@ -28,7 +23,7 @@ ABOUT/CONTACT */
   margin:  40px;
   overflow: auto;
   clear: both;
-  /* margin-bottom: 200px; */
+  margin-bottom: 200px;
 }
 
 h1, h2, h3{
@@ -56,7 +51,6 @@ footer{
   width: 100%;
   text-align: center;
   position: relative;
-  /* position: fixed; */
   bottom: 0;
   padding-top: 45px;
   border-top: 5px solid #4aaaa5;
